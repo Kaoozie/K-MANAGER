@@ -1,10 +1,4 @@
 #!/bin/bash
-#====================================================
-#	SCRIPT: LIMITER SSHPLUS MANAGER
-#	DESENVOLVIDO POR:	SUKUNA
-#	CONTATO TELEGRAM:	http://t.me/SUKUNA
-#	CANAL TELEGRAM:	http://t.me/SUKUNA
-#====================================================
 clear
 database="/root/usuarios.db"
 fun_multilogin() {
@@ -35,5 +29,5 @@ fun_multilogin() {
 while true; do
     echo 'verificando...'
 	fun_multilogin > /dev/null 2>&1
-	sleep 15s
+	sleep 1m
 done
